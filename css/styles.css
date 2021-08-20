@@ -531,6 +531,10 @@ footer {
 }
 
 /* Portfolio Cards */
+.card-thumb {
+  display: block;
+  text-decoration: none;
+}
 .card-title {
   font-weight: 700;
   font-size: 18px;
@@ -543,6 +547,7 @@ footer {
 
   font-size: 16px;
   line-height: 1.87;
+  color: var(--primary-text-color);
 }
 .card-description {
   background-color: var(--accent-color);
